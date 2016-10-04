@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>OnGuardian</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:100,300,400|Source+Sans+Pro:300,400|Open+Sans+Condensed:300|Open+Sans" rel="stylesheet">
+
+</head>
+<body data-spy="scroll" data-target=".scrollSpy" data-offset="100">
+
+	<div id="main-menu" class="left scrollSpy">
+		<div class="nav-open">
+	        <a href="#" class="nav-btn" data-action="open" data-side="left">
+	        	<div class="burger-wrap">
+	                <div class="menu-burger">
+	                    <div class="menu1"></div>
+	                    <div class="menu2"></div>
+	                    <div class="menu3"></div>
+	                </div>
+	            </div>
+	        </a>
+	    </div>
+		<div class="sidebar-nav">
+	    	<div class="nav-inner-wrap">
+	            <div class="nav-close">
+	                <a href="#" class="nav-btn" data-action="close" data-side="left">
+	                    <div class="menu-close">
+	                        <div class="menu1"></div>
+	                        <div class="menu2"></div>
+	                    </div>
+	                </a>
+	            </div>
+	            <nav>
+	                <ul class="nav nav-menu menu nav-stacked">
+						<li class="active">
+				            <a class="page-scroll" href="#bx-slider-section">Home</a>
+				        </li>
+				        <li class="">
+				            <a class="page-scroll" href="#solution-section">Solution</a>
+				        </li>
+				        <li class="">
+				            <a class="page-scroll" href="#how-section">How it works</a>
+				        </li>
+				        <li class="">
+				            <a class="page-scroll" href="#testimonials-section">Feedback</a>
+				        </li>
+				        <li class="">
+				            <a class="page-scroll" href="#about-section">About</a>
+				        </li>
+				        <li class="">
+				            <a class="page-scroll" href="#contacts-section">Contact us</a>
+				        </li>
+				    </ul>
+
+            	</nav>
+			</div>
+	    </div>
+	</div>
+
+	<section id="bx-slider-section">
+      <ul id="bx-slider">
+        <li style="background-image: url(img/banner_01.jpg)">
+        	<div class="slider-logo"><span></span></div>
+            <div class="slider-content">
+              <div class="slider-container">
+                <div class="slider-center">
+                	<div class="slider-header">
+                		Caregiving for your family, together and empowered.
+                	</div>
+	                <p>Bring your family together and share the caregiving experience<br>with your personalized care team.</p>
+                    <a class="btn play-video-btn" href="#" data-toggle="modal" data-target="#videoModal">Watch the video</a>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li style="background-image: url(img/banner_02.jpg)">
+            <div class="slider-logo"><span></span></div>
+            <div class="slider-content">
+              <div class="slider-container">
+                <div class="slider-center">
+                	<div class="slider-header">
+                		Simplifying support, <br>always keeping your cool.
+                	</div>
+	                <p>No matter what kind of assistance is needed, OnGuardian will help with your caregiving,<br>giving you the right tools to manage the job, and your life.</p>
+                    <a class="btn page-scroll" href="#solution-section">Learn more</a>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li style="background-image: url(img/banner_03.jpg)">
+            <div class="slider-logo"><span></span></div>
+            <div class="slider-content">
+              <div class="slider-container">
+                <div class="slider-center">
+                	<div class="slider-header">
+                		Naturally easy access.<br>Just ask.
+                	</div>
+	                <p>With OnGuardian’s voice interface,<br>Loved ones can get assistance by simply speaking out.</p>
+                    <a class="btn page-scroll" href="#how-section">Learn more</a>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li style="background-image: url(img/banner_04.jpg)">
+            <div class="slider-logo"><span></span></div>
+            <div class="slider-content">
+              <div class="slider-container">
+                <div class="slider-center">
+                	<div class="slider-header">
+                		Stay informed and connected,<br>always.
+                	</div>
+	                <p>Dashboards and notifications will keep your caregiving team in the loop.<br>Should an emergency arise, you will be the first to know.</p>
+                    <a class="btn page-scroll" href="#how-section">Learn more</a>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li style="background-image: url(img/banner_05.jpg)">
+            <div class="slider-logo"><span></span></div>
+            <div class="slider-content">
+              <div class="slider-container">
+                <div class="slider-center">
+                	<div class="slider-header">
+                		Get the big picture, make the right call.
+                	</div>
+	                <p>Bring your home automation and health monitoring tools together for super fast and easy access.  Make intelligent and informed decisions.</p>
+                    <a class="btn" href="#" data-toggle="modal" data-target="#getAppModal">DOWNLOAD APP</a>
+                </div>
+              </div>
+            </div>
+        </li>
+      </ul>
+    </section>
+	<section id="solution-section" class="beige-section" data-midnight="dark">
+		<div class="container">
+			<div class="title-1">Caring for a loved one is challenging and time consuming.  Caregivers face this reality alone and with little reliable information.  <br>Are you a caregiver?</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="donut donut-1">
+					  <svg width="260" height="260" xmlns="http://www.w3.org/2000/svg" class="donut__svg">
+					    <circle id="donut-graph-x" class="donut__svg__scrim" r="125" cy="130" cx="130" stroke-width="5" stroke="#d9d8d6" fill="none"/>
+					    <circle id="donut-graph" class="donut__svg__circle--one" r="125" cy="130" cx="130" stroke-width="5" stroke="url(#orange)" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+
+					    <defs>
+					      <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+					        <stop offset="0%"   stop-color="#f2b274"/>
+					        <stop offset="100%" stop-color="#f2b274"/>
+					      </linearGradient>
+					    </defs>
+
+					  </svg>
+					  <div class="donut__copy">
+					    <span class="donut__title">
+					      <span class="js-donut-figure"></span>
+					    </span>
+					  </div>
+					</div>
+					<div class="donut-description">Hours per week - time caregivers spend on average taking care of a loved one.</div>
+				</div>
+				<div class="col-md-4">
+					<div class="donut donut-2">
+					  <svg width="260" height="260" xmlns="http://www.w3.org/2000/svg" class="donut__svg">
+					    <circle id="donut-graph-x" class="donut__svg__scrim" r="125" cy="130" cx="130" stroke-width="5" stroke="#d9d8d6" fill="none"/>
+					    <circle id="donut-graph" class="donut__svg__circle--one" r="125" cy="130" cx="130" stroke-width="5" stroke="url(#orange)" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+
+					    <defs>
+					      <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+					        <stop offset="0%"   stop-color="#f2b274"/>
+					        <stop offset="100%" stop-color="#f2b274"/>
+					      </linearGradient>
+					    </defs>
+
+					  </svg>
+					  <div class="donut__copy">
+					    <span class="donut__title">
+					      <span class="js-donut-figure"></span>
+					      <span class="donut__spic">%</span>
+					    </span>
+					  </div>
+					</div>
+					<div class="donut-description">of Seniors today plan to stay in their homes.</div>
+				</div>
+				<div class="col-md-4">
+					<div class="donut donut-3">
+					  <svg width="260" height="260" xmlns="http://www.w3.org/2000/svg" class="donut__svg">
+					    <circle id="donut-graph-x" class="donut__svg__scrim" r="125" cy="130" cx="130" stroke-width="5" stroke="#d9d8d6" fill="none"/>
+					    <circle id="donut-graph" class="donut__svg__circle--one" r="125" cy="130" cx="130" stroke-width="5" stroke="url(#orange)" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+
+					    <defs>
+					      <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+					        <stop offset="0%"   stop-color="#f2b274"/>
+					        <stop offset="100%" stop-color="#f2b274"/>
+					      </linearGradient>
+					    </defs>
+
+					  </svg>
+					  <div class="donut__copy">
+					    <span class="donut__title">
+					      <span class="js-donut-figure"></span>
+					    </span>
+					  </div>
+					</div>
+					<div class="donut-description">Million Americans are expected to need assistance by 2020.</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="title-2 col-xs-12">WHAT IF WE TOLD YOU THERE IS A BETTER WAY TO CARE FOR YOUR LOVED ONES <br class="hide-mobile-md">AND STILL MAINTAIN A HEALTHY BALANCE IN YOUR LIFE?</div>
+				<p class="t-center col-xs-12">OnGuardian is made with your life in mind. Stay updated and manage your caregiving while saving precious time. <br>Your family will love you for it; and you will love yourself even more!</p>
+			</div>
+		</div>
+	</section>
+	<section class="white-section" data-midnight="dark">
+		<div class="container">
+			<div class="row">
+				<div class="title-1">We Streamline Caregiving</div>
+			</div>
+			<div class="row solution-blocks">
+				<div class="col-md-4">
+					<div class="solution-block-head">
+						<span class="solution-block-head-icon"><i class="icon-home"></i></span>
+						<div>CARE REQUESTS</div>
+					</div>
+					<div class="solution-blocks-content">
+						Simplify how caregivers care for their loved ones by streamlining how support is delivered with a platform that is connected to home control and health monitoring devices.
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="solution-block-head">
+						<span class="solution-block-head-icon"><i class="icon-dashboard"></i></span>
+						<div>NOTIFICATIONS</div>
+					</div>
+					<div class="solution-blocks-content">
+						Inform caregivers through dashboards and notifications about the status of the home and health of their loved ones, react to emergencies and stay updated when needed.
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="solution-block-head">
+						<span class="solution-block-head-icon"><i class="icon-voice"></i></span>
+						<div>VOICE ACCESS</div>
+					</div>
+					<div class="solution-blocks-content">
+						Ensure easy access through a natural non-intrusive and friendly interface for the care recipient using Amazon Echo and Alexa Voice Interface.
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-4">
+					<div class="solution-block-head">
+						<span class="solution-block-head-icon"><i class="icon-graduate"></i></span>
+						<div>Knowledge base</div>
+					</div>
+					<div class="solution-blocks-content">
+						Access relative information, review historical data, search caregiving knowledge base, share experiences with others.
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="solution-block-head">
+						<span class="solution-block-head-icon"><i class="icon-tools"></i></span>
+						<div>COLLABORATION</div>
+					</div>
+					<div class="solution-blocks-content">
+						Facilitate the management of daily activities with social and collaboration tools to reach other caregivers and qualified 3rd party service providers
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="solution-block-head">
+						<span class="solution-block-head-icon"><i class="icon-sheriff-badge"></i></span>
+						<div>CARE CONCIERGE</div>
+					</div>
+					<div class="solution-blocks-content">
+						Stay confident with our Concierge Services that provide caregivers and care recipients an added level of assurance that help is always available when needed most.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="how-section">
+		<div class="fixed-header">
+			<div class="row">
+				<div class="title-1">How it Works</div>
+			</div>
+			<ul class="nav nav-pills">
+			    <li class="active"><a href="#"><img src="img/how_icon_phone.svg" alt="Phone"></a></li>
+			    <li><a href="#"><img src="img/how_icon_laptop.svg" alt="Laptop"></a></li>
+			    <li><a href="#"><img src="img/how_icon_echo.svg" alt="Echo"></a></li>
+			</ul>
+			<div class="button"><a class="btn" href="#" data-toggle="modal" data-target="#getAppModal">Get the app</a></div>
+		</div>
+		<div class="tab-content">
+		    <div id="howPhone" class="tab-pane fade in active">
+		      <div class="container">
+				<div class="row">
+					<div class="col-md-4 t-right info-col">
+						<div class="row">
+							<a class="how-block active" data-screen-src="img/screen_iphone_01.jpg">
+								<div class="title">VOICE ACCESS</div>
+								<p>Your voice is all you need to request assistance.  Our voice interface is simple to use and it is so natural that you'll be up and running in a snap.</p>
+							</a>
+						</div>
+						<div class="row">
+							<a class="how-block" data-screen-src="img/screen_iphone_02.jpg">
+								<div class="title">CARE REQUESTS</div>
+								<p>Incoming requests for assistance are immediately delivered to you via our notifications.  If you can't respond immediately, OnGuardian provides a simple way to share this with other family members and 3rd parties.</p>
+							</a>
+						</div>
+						<div class="row">
+							<a class="how-block" data-screen-src="img/screen_iphone_03.jpg">
+								<div class="title">COLLABORATION</div>
+								<p>Put the family back in caregiving.  Share your loved one's status with your family and keep everyone engaged in their caregiving responsibilities.</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4"><div class="device-image-phone"><img src="img/iphone.png"><span></span></div></div>
+					<div class="col-md-4 info-col">
+						<div class="row">
+							<a class="how-block" data-screen-src="img/screen_iphone_02.jpg">
+								<div class="title">Alerts</div>
+								<p>Create alerts and reminders to keep everyone on track for activities such as taking medications, visiting the doctor, and home maintenance activities.  We remind your loved ones for you.</p>
+							</a>
+						</div>
+						<div class="row">
+							<a class="how-block" data-screen-src="img/screen_iphone_01.jpg">
+								<div class="title">EMERGENCY</div>
+								<p>It can happen to any one of us.  OnGuardian can be a valuable tool to help your family during an emergency.  We will notify your entire caregiving team and provide details that may help during the crisis.</p>
+							</a>
+						</div>
+						<div class="row">
+							<a class="how-block" data-screen-src="img/screen_iphone_03.jpg">
+								<div class="title">KNOWLEGDE BASE</div>
+								<p>Fast and convenient access to information that helps with your caregiving.  We have done the research for you.</p>
+							</a>
+						</div>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		    <div id="howLaptop" class="tab-pane fade">
+		      <div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="device-image-laptop"><img src="img/MacBook.png"><span></span></div>
+					</div>
+					<div class="col-md-6 info-col">
+						<div class="row">
+							<a class="how-block active" data-screen-src="img/banner_01.jpg">
+								<div class="title">Caregiving Team Management</div>
+								<p>Teamwork is critical in caregiving.  Manage your family caregiving team and collaborate seamlessly.</p>
+							</a>
+						</div>
+						<div class="row">
+							<a class="how-block" data-screen-src="img/banner_02.jpg">
+								<div class="title">Profile</div>
+								<p>OnGuardian can learn a lot about your own caregiving situation and provides you with the right tools to register the important information about your loved ones home, health, and other vital information.</p>
+							</a>
+						</div>
+						<div class="row">
+							<a class="how-block" data-screen-src="img/banner_04.jpg">
+								<div class="title">Reporting</div>
+								<p>Need to have a conversation with your family, friends, and doctors about how the caregiving has been going?  We provide reports that can help you explain what’s going on.</p>
+							</a>
+						</div>
+						<div class="row">
+							<a class="how-block" data-screen-src="img/banner_05.jpg">
+								<div class="title">Knowledge base</div>
+								<p>Need to know more?  Our caregiving knowledge base will be your first source of relative information on health, caregiving, and life as a caregiver.  We have done the research for you. </p>
+							</a>
+						</div>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		    <div id="howEcho" class="tab-pane fade">
+		      <div class="container">
+				<div class="row">
+					<div class="col-md-4 t-right">
+						<div class="device-image-echo"><img src="img/echo.png"></div>
+					</div>
+					<div class="col-md-7 col-md-offset-1 info-col">
+						<div class="row">
+							<div class="how-block">
+								<div class="title">Always on</div>
+								<p>With Amazon Echo your loved ones have a convenient hands free alternative to interact with OnGuardian.  Echo is always on and ready to help, no matter what.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="how-block">
+								<div class="title">JUST ASK</div>
+								<p>All you have to do is ask.  Alexa’s natural voice interface makes is easy for everyone to talk to Echo and with its far field voice recognition you can be sure that you will be heard when asking for assistance, information, and help with various tasks around the house.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="how-block">
+								<div class="title">EMERGENCY</div>
+								<p>Rest at ease, knowing that should an emergency happen, your loved one does not need to pick up the phone to get help.  As long as Echo can hear the call for help, we will immediately take action and notify your caregiving team.  Echo will also keep your loved one updated with voice notifications.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="how-block">
+								<div class="title">Don't have echo</div>
+								<p>Don’t have an echo device?  Don’t worry, we have many of the voice features built in directly into our mobile app.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+	</section>
+	<section id="testimonials-section" data-midnight="dark">
+		<div class="container">
+			<div class="row">
+				<div class="title-1">Feedback</div>
+			</div>
+			<div class="row">
+				<ul id="testimonials-slider">
+					<li>
+						<div class="testimonial-image" style="background: url('img/middle-aged-woman.png')"></div>
+						<div class="testimonial-text">
+							I have learned to be a counselor, cook, banker, chauffeur, nurse and many other things since I have started helping my mom.  OnGuardian really helps keep all of these tasks on track.
+						</div>
+						<div class="testimonial-author">Sarah Collins - Caregiver</div>
+					</li>
+					<li>
+						<div class="testimonial-image" style="background: url('img/young-man.png')"></div>
+						<div class="testimonial-text">
+							I want him to be happy and comfortable in his own home with mom for a long as he can.  OnGuardian has given me the peace of mind I need while I am travelling to know that my parents are Ok. If anything happens I will know it right away!
+						</div>
+						<div class="testimonial-author">Mark DeGrassi - Caregiver</div>
+					</li>
+					<li>
+						<div class="testimonial-image" style="background: url('img/older-woman.png')"></div>
+						<div class="testimonial-text">
+							It truly takes a heavy toll on you, when you are caring for someone 24 hours each day. OnGuardian helps me keep our children informed and allows me to ask for help when things get overwhelming.
+						</div>
+						<div class="testimonial-author">Janet Matos - Caregiver</div>
+					</li>
+					<li>
+						<div class="testimonial-image" style="background: url('img/older-man.png')"></div>
+						<div class="testimonial-text">
+							OnGuardian has helped my family in coming together as a team for my caregiving.  I can just ask for help using my amazon echo, and my kids respond immediately.  Now we spend more time talking about the things that really matter, and not so much about my problems.
+						</div>
+						<div class="testimonial-author">Edward Brown - Carerecipient</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="about-section">
+		<div class="fixed-header">
+			<div class="row">
+				<div class="title-1">About Us</div>
+			</div>
+			<ul class="nav nav-pills">
+			    <li><a data-slide-index="0" class="active">Story</a></li>
+			    <li><a data-slide-index="1">Partners</a></li>
+			</ul>
+		</div>
+		<div class="tab-content">
+		    <div id="aboutStory" class="tab-pane fade in active">
+		      <div class="container">
+				<div class="row">
+					<div class="main-content col-md-10 col-md-offset-1">My dad's first stroke caught us all by surprise in 2009.  Like most caregivers, I was not prepared at all to face the long road ahead.  I had just gotten married and had a baby on the way, I had to move cities, change jobs, and completely adjust my own life to the new reality.  After my dad's second stroke, I knew that something needed to be done to help the more than 47 Million caregivers in the United States who go through these same situations every single year.  I had to think about how today's emerging technologies could come together and provide both the caregivers and care recipients a better way to handle these challenges;  how it could actually bridge the gap and provide support to the things that matter most in life.  Hence, OnGuardian was born.
+					<br><br>
+					Daniel Ferraz, Founder
+					</div>
+					<div class="t-center"><a href="about.html" class="btn">Learn more</a></div>
+				</div>
+			  </div>
+			</div>
+			<div id="aboutPartners" class="tab-pane fade in">
+		      <div class="container">
+				<div class="row">
+					<div class="main-content col-md-10 col-md-offset-1">We are working hard to grow our partner network with qualified professionals to assist our caregivers. If you would like to become part of our OnGuardian Caregiving network, lets us know.</div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</section>
+	<section id="contacts-section">
+		<div class="container">
+			<div class="row">
+				<div class="title-1">Contact Us</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<form id="contact-form" class="submit-form" role="form" data-toggle="validator">
+			            <div class="box text-input">
+			                <input id="name" type="text" name="name" required="">
+			                <label>Your Name:</label>
+			                <span></span>
+			            </div>
+						<div class="box text-input">
+			                <input id="email" type="text" name="email" required="">
+			                <label>Your Email:</label>
+			                <span></span>
+			            </div>
+			            <div class="box text-input textarea">
+			                <textarea id="message" name="message" required=""></textarea>
+			                <label>Your Message:</label>
+			                <span></span>
+			            </div>
+			            <div class="button">
+			                <input id="submit_message" class="submit_contact" type="submit" value="Send">
+			            </div>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<ul class="contacts-info">
+						<li>
+							<div class="circle"><span><img src="img/email_icon.svg" alt="Email"></span></div>
+							<p>Email:<br>
+								contact@onguardian.io</p>
+						</li>
+						<li>
+							<div class="circle"><span><img src="img/location_icon.svg" alt="Location"></span></div>
+							<p class="pt5">5114 Balcones Woods Dr. <br>
+								Ste. 307-323<br>
+								Austin, TX 78759</p>
+						</li>
+						<li>
+							<div class="circle"><span><img src="img/phone_icon.svg" alt="Phone"></span></div>
+							<p>Phone:<br>
+								+ 1 832 919 6000</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="copyright">Copyrights © 2016. All Rights Reserved.</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer-logo"><span></span></div>
+				</div>
+				<div class="col-md-5">
+					<ul class="socials row">
+						<li><a href="https://www.facebook.com/onguardian" target="blank"><i class="socials-fb"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/onguardian" target="blank"><i class="socials-in"></i></a></li>
+						<li><a href="https://twitter.com/on_guardian" target="blank"><i class="socials-tw"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<nav class="col-sm-3 hide-mobile scrollSpy" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active">
+            <a class="page-scroll" href="#bx-slider-section">Home</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="#solution-section">Solution</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="#how-section">How it works</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="#testimonials-section">Feedback</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="#about-section">About</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="#contacts-section">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+
+
+	<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true"><img src="img/close-white.png"></span>
+	        </button>
+	      </div>
+	      <div class="modal-body t-center">
+		        <video id="modelVideo" controls>
+				  <source src="img/revised_2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+				</video>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- <div class="modal fade" id="getAppModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true"><img src="img/close.png"></span>
+	        </button>
+	      </div>
+	      <div class="modal-body t-center">
+	        <div class="title-1">THANK YOU FOR CARING!</div>
+	        <div class="title-2 gray">Download the OnGuardian app now.<br>There are no hidden costs or in-app purchases.</div>
+	        <p>The download will start automatically after you select the platform of choice. </p>
+	        <div class="modal-footer">
+	        	<div class="col-md-4 col-md-offset-2"><a href="#"><img src="img/google_play.png"></a></div>
+	        	<div class="col-md-4"><a href="#"><img src="img/app_store.png"></a></div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div> -->
+	<div class="modal fade" id="getAppModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true"><img src="img/close.png"></span>
+	        </button>
+	      </div>
+	      <div class="modal-body t-center">
+	        <div class="title-1">THANK YOU FOR CARING!</div>
+	        <div class="title-2">Our team is working hard to bring you our app.  Please fill out the contact form and we will<br> reach out to you when our app is ready.  We are sure you will love it!</div>
+	        <div class="row">
+				<div class="col-md-8 col-md-offset-2">
+			        <form id="app-form" class="submit-form" role="form" data-toggle="validator">
+			            <div class="box text-input">
+			                <input id="yourName" type="text" name="appName" required="">
+			                <label>Your Name:</label>
+			                <span></span>
+			            </div>
+						<div class="box text-input">
+			                <input id="yourEmail" type="text" name="appEmail" required="">
+			                <label>Your Email:</label>
+			                <span></span>
+			            </div>
+			            <div class="box text-input">
+			                <select class="selectpicker" id="systemSelect" title="Choose Preferred System:" required="" name="appSystem">
+			                	<option value="ios">iOS</option>
+			                	<option value="android">Android</option>
+			                </select>
+			            </div>
+			            <div class="box text-input checkbox-input">
+			            	<input id="becomeAdopter" type="checkbox" name="appBecomeAdopter" value="becomeAdopter">
+			            	<label for="becomeAdopter">Become an early adopter*</label>
+			            </div>
+			            <div class="button">
+			                <input id="submitMessage" class="submit_contact" type="submit" value="Send">
+			            </div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+			        <div class="hint">*  -   As one of our earliest clients, you will be the first to use OnGuardian, before its major launch. We encourage you to provide candid
+		        feedback to help us refine our future product releases, and appreciate your patience and understanding.</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+
+	<script src="js/jquery-1.12.2.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/midnight.jquery.min.js"></script>
+	<script src="js/jquery.sidebar.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+	<script src="js/scrollreveal.min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9d9d9d;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="graph_chart_1" data-name="graph chart 1" class="cls-1" d="M29,2883h0.987L30,2905.99l25,0.05V2907H29v-24Zm10,0h3a1,1,0,0,1,1,1v20H38v-20A1,1,0,0,1,39,2883Zm-6,6h3a1,1,0,0,1,1,1v14H32v-14A1,1,0,0,1,33,2889Zm12,6h3a1,1,0,0,1,1,1v8H44v-8A1,1,0,0,1,45,2895Zm6,6h3a1,1,0,0,1,1,1v2H50v-2A1,1,0,0,1,51,2901Z" transform="translate(-29 -2883)"/>
+</svg>
