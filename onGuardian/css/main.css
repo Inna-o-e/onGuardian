@@ -614,15 +614,29 @@ body{
 
 .slider-content .btn.play-video-btn{
   padding-left: 60px;
+  background: #11a0dc;
+  border: none;
+  transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+.slider-content .btn.play-video-btn:hover{
+  background: #fff;
+  color: #11a0dc;
 }
 .slider-content .btn.play-video-btn:before{
   content: "";
   position: absolute;
   width: 36px;
   height: 36px;
-  background: url(../img/play_video_btn.png);
+  background: url(../img/play_video_btn.svg);
   top: 8px;
   left: 9px;
+}
+.slider-content .btn.play-video-btn:hover:before{
+  background: url(../img/play_video_btn__blue.svg);
 }
 
 @media (max-width: 1200px){
@@ -929,15 +943,42 @@ span.donut__title .js-donut-figure{
 #how-section .nav-pills li a{
   width: 54px;
   height: 54px;
-  background: rgba(255, 255, 255, 0.15);
+  background: #11a0dc;
   border-radius: 50%;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   padding-top: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition:all 0.2s linear;
+  -moz-transition:all 0.2s linear;
+  -ms-transition:all 0.2s linear;
+  transition:all 0.2s linear;
+}
+#how-section .nav-pills li a.how_icon_phone{
+  background-image: url(../img/how_icon_phone.svg);
+}
+#how-section .nav-pills li a.how_icon_phone:hover,
+#how-section .nav-pills li.active a.how_icon_phone{
+  background-image: url(../img/how_icon_phone__blue.svg);
+}
+#how-section .nav-pills li a.how_icon_laptop{
+  background-image: url(../img/how_icon_laptop.svg);
+}
+#how-section .nav-pills li a.how_icon_laptop:hover,
+#how-section .nav-pills li.active a.how_icon_laptop{
+  background-image: url(../img/how_icon_laptop__blue.svg);
+}
+#how-section .nav-pills li a.how_icon_echo{
+  background-image: url(../img/how_icon_echo.svg);
+}
+#how-section .nav-pills li a.how_icon_echo:hover,
+#how-section .nav-pills li.active a.how_icon_echo{
+  background-image: url(../img/how_icon_echo__blue.svg);
 }
 #how-section .nav-pills li.active a, #how-section .nav-pills li a:hover{
-  box-shadow: 0 0 0 1px #fff;
+  background-color: #fff;
 }
 #how-section .button{
   position: absolute;
@@ -951,27 +992,26 @@ span.donut__title .js-donut-figure{
   color: #fff;
   text-decoration: none;
   border-radius: 50px;
-  border: 1px solid #fff;
-  background: rgba(255,255,255,0.15);
+  background: #11a0dc;
   padding: 14px 70px 14px 30px;
   position: relative;
   font-weight: 700;
   text-transform: uppercase;
-  transition: all .3s ease;
-  -o-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -webkit-transition: all .3s ease;
+  transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
   outline: none;
 }
 #how-section .button .btn:hover{
-  background: #f2b274;
-  border-color: #f2b274;
-  transition: all .3s ease;
-  -o-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -webkit-transition: all .3s ease;
+  background: #fff;
+  color: #11a0dc;
+  transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 #how-section .button .btn:after{
   content: '';
@@ -979,8 +1019,11 @@ span.donut__title .js-donut-figure{
   width: 42px;
   height: 18px;
   right: 15px;
-  top: 16px;
+  top: 17px;
   background: url(../img/free.png);
+}
+#how-section .button .btn:hover:after{
+  background: url(../img/free__blue.png);
 }
 #how-section .bx-controls{
   display: none;
@@ -1992,16 +2035,23 @@ footer{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   font-size: 24px;
+  font-weight: 300;
   color: #fff;
 
-  -webkit-transform: translateY(10vh);
-  transform: translateY(10vh);
+  -webkit-transform: translateY(20vh);
+  transform: translateY(20vh);
   -webkit-transition: all 1.7s cubic-bezier(.22,.44,0,1);
   transition: all 1.7s cubic-bezier(.22,.44,0,1);
 }
+.about-banner__text + .about-banner__text{
+  -webkit-transform: translateY(17vh);
+  transform: translateY(17vh);
+  ebkit-transition: all 1.7s cubic-bezier(.22,.44,0,1);
+  transition: all 1.7s cubic-bezier(.22,.44,0,1);
+}
 .about-banner--loaded .about-banner__title, .about-banner--loaded .about-banner__text{
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  -webkit-transform: translateY(10vh);
+  transform: translateY(10vh);
 }
 /* .about-banner {
   min-height: 700px;

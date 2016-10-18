@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M87,120a18,18,0,1,1-18,18A18,18,0,0,1,87,120Zm5,18.5-8,5.514V132.986Z" transform="translate(-69 -120)"/>
+</svg>

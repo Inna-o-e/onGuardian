@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 16 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #11a0dc;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="iphone" class="cls-1" d="M465,214h12a2,2,0,0,1,2,2v20a2,2,0,0,1-2,2H465a2,2,0,0,1-2-2V216A2,2,0,0,1,465,214Zm0.021,3H477v16H465Zm2.98-2h5l0.063,1H468v-1Zm2.979,19.5a1,1,0,1,1-1,1A1,1,0,0,1,470.979,234.5Z" transform="translate(-463 -214)"/>
+</svg>
