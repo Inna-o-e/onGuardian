@@ -943,7 +943,7 @@ span.donut__title .js-donut-figure{
 #how-section .nav-pills li a{
   width: 54px;
   height: 54px;
-  background: #11a0dc;
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 50%;
   display: table-cell;
   text-align: center;
@@ -956,29 +956,9 @@ span.donut__title .js-donut-figure{
   -ms-transition:all 0.2s linear;
   transition:all 0.2s linear;
 }
-#how-section .nav-pills li a.how_icon_phone{
-  background-image: url(../img/how_icon_phone.svg);
-}
-#how-section .nav-pills li a.how_icon_phone:hover,
-#how-section .nav-pills li.active a.how_icon_phone{
-  background-image: url(../img/how_icon_phone__blue.svg);
-}
-#how-section .nav-pills li a.how_icon_laptop{
-  background-image: url(../img/how_icon_laptop.svg);
-}
-#how-section .nav-pills li a.how_icon_laptop:hover,
-#how-section .nav-pills li.active a.how_icon_laptop{
-  background-image: url(../img/how_icon_laptop__blue.svg);
-}
-#how-section .nav-pills li a.how_icon_echo{
-  background-image: url(../img/how_icon_echo.svg);
-}
-#how-section .nav-pills li a.how_icon_echo:hover,
-#how-section .nav-pills li.active a.how_icon_echo{
-  background-image: url(../img/how_icon_echo__blue.svg);
-}
+
 #how-section .nav-pills li.active a, #how-section .nav-pills li a:hover{
-  background-color: #fff;
+  box-shadow: 0 0 0 1px #fff;
 }
 #how-section .button{
   position: absolute;
